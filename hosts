@@ -9,7 +9,8 @@
 #   - A hostname/ip can be a member of multiple groups
 
 [webserver]
-35.185.18.12
+#35.231.15.238 ansible_ssh_private_key_file=/root/.ssh/id_rsa.pub
+35.195.136.37
 
 [control]
 control ansible_connection=local
